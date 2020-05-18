@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class DogsComponent implements OnInit {
     name: string = '' || 'otto';
+    breed: string = 'Border Collie'
 
     construcor() {
 
