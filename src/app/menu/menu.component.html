@@ -1,0 +1,21 @@
+<button mat-button [matMenuTriggerFor]="aboveMenu">Home</button>
+<mat-menu #aboveMenu="matMenu" yPosition="above">
+   <button mat-menu-item>About Us</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="belowMenu">Dogs</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+   <button mat-menu-item>Adopt</button>
+   <button mat-menu-item>Foster</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="beforeMenu">FAQ</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before">
+</mat-menu>
+
+
+<button mat-button [matMenuTriggerFor]="afterMenu">Contact Us</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+  <button mat-menu-item>Email</button>
+  <button mat-menu-item>Location</button>
+</mat-menu>

@@ -1,0 +1,15 @@
+.image-carousel {
+    border-style: solid;
+    border-width: 3px;
+    border-color:gray;
+    width: 600px;
+    height: 325px;
+}
+.carousel-inner {
+    max-width: 100%;
+    height: auto;
+}
+
+.mt-3 {
+    width: 75vh;
+}
